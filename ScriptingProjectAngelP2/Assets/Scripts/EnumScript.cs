@@ -15,7 +15,7 @@ public class EnumScript : MonoBehaviour
 
         Debug.Log(myDirection);
 
-        Debug.Log(ReverseDirection.(myDirection));
+        Debug.Log(ReverseDirection(myDirection));
     }
 
     Direction ReverseDirection (Direction dir)
